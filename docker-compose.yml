@@ -1,0 +1,35 @@
+# ============================================
+# Customer Support Agent — Docker Compose
+# Local deployment with Docker Desktop (Windows)
+# ============================================
+version: "3.9"
+
+services:
+  # ── Main Application ──
+  support-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: customer-support-agent
+    ports:
+      - "8000:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - DATA_DIR=/app/data
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+    volumes:
+      # Persist ChromaDB index across restarts
+      - chroma_data:/app/chroma_db
+      # Mount knowledge base (allows hot-swapping data)
+      - ./data:/app/data:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      start_period: 120s
+      retries: 3
+
+volumes:
+  chroma_data:
+    driver: local

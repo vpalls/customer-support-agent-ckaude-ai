@@ -1,0 +1,80 @@
+[project]
+# Enable telemetry for usage analytics (set false for privacy)
+enable_telemetry = false
+
+# Session management
+user_env = []
+
+# Allow HTML in messages (for rich formatting)
+allow_dangerous_html = false
+
+# Session timeout in seconds (30 min)
+session_timeout = 1800
+
+# Caching
+cache = false
+
+[features]
+# Enable prompt playground
+prompt_playground = false
+
+# Enable multi-modal uploads
+multi_modal = false
+
+# Unsafe allow HTML in messages
+unsafe_allow_html = false
+
+# Enable speech-to-text (disabled — requires additional setup)
+[features.speech_to_text]
+enabled = false
+
+# Spontaneous file upload
+[features.spontaneous_file_upload]
+enabled = false
+
+[UI]
+# Application name
+name = "AI Customer Support Agent"
+
+# Show readme on load
+show_readme_as_default = true
+
+# Default dark/light mode
+default_theme = "dark"
+
+# Description shown in header
+description = "Intelligent Customer Support powered by Claude AI + LangGraph"
+
+# Custom CSS (optional)
+# custom_css = "/public/custom.css"
+
+# Custom JS (optional)
+# custom_js = "/public/custom.js"
+
+# Custom favicon
+# favicon = "/public/favicon.ico"
+
+# Custom font
+# custom_font = ""
+
+# Hide Chainlit branding
+hide_cot = false
+
+[UI.theme]
+    [UI.theme.dark]
+        background = "#1a1a2e"
+        paper = "#16213e"
+        [UI.theme.dark.primary]
+            main = "#e94560"
+            dark = "#c81d4e"
+            light = "#ff6b81"
+    [UI.theme.light]
+        background = "#f5f5f5"
+        paper = "#ffffff"
+        [UI.theme.light.primary]
+            main = "#e94560"
+            dark = "#c81d4e"
+            light = "#ff6b81"
+
+[meta]
+generated_by = "Claude AI"

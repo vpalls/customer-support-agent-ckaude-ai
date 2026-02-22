@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Our AI models support on-premises deployment. We offer containerized solutions that can be deployed on your own infrastructure using Docker or Kubernetes. Our enterprise team can assist with custom deployment configurations including GPU optimization and model serving.",
+    "metadata": {"category": "technical", "topic": "deployment"}
+  },
+  {
+    "text": "We provide pre-trained models for natural language processing, computer vision, and speech recognition. Models are available in various sizes from lightweight (suitable for edge devices) to large-scale enterprise models. All models come with comprehensive API documentation and SDKs for Python, Java, and Node.js.",
+    "metadata": {"category": "technical", "topic": "models"}
+  },
+  {
+    "text": "Our hardware products include AI accelerator cards, edge computing devices, and server-grade GPU clusters. All hardware comes with a 2-year warranty and free firmware updates. For technical specifications, please refer to the product datasheet available on our website.",
+    "metadata": {"category": "technical", "topic": "hardware"}
+  },
+  {
+    "text": "System requirements for our AI platform: minimum 16GB RAM, 4-core CPU, 50GB storage. GPU acceleration requires NVIDIA CUDA-compatible hardware. Our platform supports Linux (Ubuntu 20.04+), Windows 10/11, and macOS 12+. Docker Desktop is recommended for containerized deployments.",
+    "metadata": {"category": "technical", "topic": "requirements"}
+  },
+  {
+    "text": "API rate limits vary by plan: Free tier allows 100 requests/hour, Pro tier allows 10,000 requests/hour, Enterprise tier has custom limits. Rate limit headers are included in all API responses. If you exceed your limit, requests return HTTP 429 with a retry-after header.",
+    "metadata": {"category": "technical", "topic": "api"}
+  },
+  {
+    "text": "We offer model fine-tuning services for enterprise customers. Fine-tuning requires a minimum dataset of 1,000 examples. The process typically takes 2-4 hours depending on model size and dataset. Fine-tuned models can be deployed to your own infrastructure or hosted on our cloud platform.",
+    "metadata": {"category": "technical", "topic": "fine-tuning"}
+  },
+  {
+    "text": "Our software integrates with popular platforms including Slack, Microsoft Teams, Salesforce, and Jira. REST API and webhook integrations are available for custom applications. We also provide pre-built connectors for major cloud providers (AWS, Azure, GCP).",
+    "metadata": {"category": "technical", "topic": "integrations"}
+  },
+  {
+    "text": "We accept the following payment methods: Visa, MasterCard, American Express, PayPal, and bank wire transfers. For enterprise customers, we also accept purchase orders and offer NET-30 payment terms. All transactions are processed securely using PCI-compliant systems.",
+    "metadata": {"category": "billing", "topic": "payment-methods"}
+  },
+  {
+    "text": "Our refund policy allows for full refunds within 30 days of purchase for software subscriptions. Hardware products can be returned within 14 days in original packaging for a full refund. After the refund period, we offer pro-rated credits for unused subscription time.",
+    "metadata": {"category": "billing", "topic": "refunds"}
+  },
+  {
+    "text": "Invoices are generated automatically on the first of each month and sent to the billing email on file. You can access all past invoices from the 'Billing' section in your account dashboard. Invoices are available in PDF format and include detailed line items for all services used.",
+    "metadata": {"category": "billing", "topic": "invoices"}
+  },
+  {
+    "text": "Subscription plans include: Starter ($29/month), Pro ($99/month), and Enterprise (custom pricing). Annual billing receives a 20% discount. Plan upgrades take effect immediately with pro-rated charges. Downgrades take effect at the next billing cycle.",
+    "metadata": {"category": "billing", "topic": "pricing"}
+  },
+  {
+    "text": "You can update your billing information directly from the 'Billing' section in your account dashboard. This includes updating credit card details, billing address, and tax ID. Changes to payment methods take effect on the next billing cycle.",
+    "metadata": {"category": "billing", "topic": "account"}
+  },
+  {
+    "text": "Tax handling: Prices listed on our website are exclusive of applicable taxes. Sales tax or VAT is calculated at checkout based on your billing address. Enterprise customers with valid tax exemption certificates can request tax-exempt billing through their account manager.",
+    "metadata": {"category": "billing", "topic": "taxes"}
+  },
+  {
+    "text": "Our customer support team is available from 9:00 AM to 6:00 PM EST, Monday to Friday. You can reach us via email at support@example.com or call us at 1-800-123-4567. Enterprise customers have access to 24/7 priority support via dedicated Slack channels.",
+    "metadata": {"category": "general", "topic": "support-hours"}
+  },
+  {
+    "text": "Our shipping policy: Standard shipping (5-7 business days) is free for orders over $100. Express shipping (2-3 business days) is available for $15. International shipping is available to most countries with delivery times of 7-14 business days. Tracking numbers are provided for all shipments.",
+    "metadata": {"category": "general", "topic": "shipping"}
+  },
+  {
+    "text": "Our privacy policy ensures that all customer data is encrypted at rest and in transit. We are SOC 2 Type II certified and GDPR compliant. Customer data is never shared with third parties without explicit consent. Data retention periods are configurable per account.",
+    "metadata": {"category": "general", "topic": "privacy"}
+  },
+  {
+    "text": "To create an account, visit our website and click 'Sign Up'. You can register with your email address or use SSO through Google, GitHub, or Microsoft. After registration, you will receive a verification email. Account setup includes a guided onboarding process.",
+    "metadata": {"category": "general", "topic": "account-creation"}
+  },
+  {
+    "text": "Our Service Level Agreement (SLA) guarantees 99.9% uptime for all paid plans. In case of downtime exceeding the SLA, customers receive service credits. Scheduled maintenance windows are communicated 48 hours in advance via email and status page updates.",
+    "metadata": {"category": "general", "topic": "sla"}
+  },
+  {
+    "text": "Our company offers comprehensive training programs including online courses, webinars, and in-person workshops. Enterprise customers receive complimentary onboarding training. Self-paced learning resources are available in our documentation portal at docs.example.com.",
+    "metadata": {"category": "general", "topic": "training"}
+  },
+  {
+    "text": "For partnership inquiries, please contact our business development team at partners@example.com. We offer technology partnerships, reseller programs, and system integrator partnerships. Partner benefits include revenue sharing, co-marketing opportunities, and early access to new products.",
+    "metadata": {"category": "general", "topic": "partnerships"}
+  }
+]

@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+.env
+.env.local
+.git
+.gitignore
+*.md
+!chainlit.md
+README.md
+aws/
+.vscode/
+*.ipynb
+chroma_db/
+.chainlit/translations/
+node_modules/
